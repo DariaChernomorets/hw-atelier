@@ -1,0 +1,10 @@
+.footer{
+@media(max-width: $br-point-mob){
+  &__navigation{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap:15px;
+  }
+}
+
+}

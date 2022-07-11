@@ -1,0 +1,64 @@
+body{
+  background-color: $bg-color;
+  font-size: $font-sm;
+  font-family: $font-family;
+  color: $main-color;
+}
+
+a{
+  --bs-link-color:#{$main-color};
+  --bs-link-hover-color:#{$accent-color};
+  text-decoration: none;
+}
+
+  .nav-link{
+    --bs-nav-link-color:#{$main-color};
+    --bs-navbar-active-color:#{$accent-color};
+    --bs-nav-link-hover-color:#{$accent-color};
+  }
+
+  .btn-dark{
+    --bs-btn-color:#{$accent-color};
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color:#{$accent-color};
+    --bs-btn-hover-color: #{$bg-color};
+    --bs-btn-hover-bg: #{$accent-color};
+    --bs-btn-padding-x: 25px;
+    --bs-btn-padding-y: 13px;
+    --bs-btn-font-size:#{$font-sm};
+  }
+
+  .col-4  {
+
+    @media (min-width: #{$br-point-tab}){
+      width:calc(33.333333% - 20px);
+    }
+    @media (max-width: #{$br-point-tab}){
+      width:calc(50% - 20px);
+    }
+    @media (max-width: #{$br-point-mob-l}){
+      width:100%;
+    }
+
+  }
+
+.card{
+  --bs-card-border-color:#4B4136;
+  --bs-card-border-radius:0;
+}
+
+
+.btn-atelier {
+  background-color: $accent-color;
+  color: black;
+  padding: 15px 25px;
+  border: none;
+  text-transform: $uppercase;
+
+  &:hover {
+    background-color: $bg-color;
+    color: $accent-color;
+    border: 1px solid $accent-color;
+    padding: 14px 25px;
+  }
+}

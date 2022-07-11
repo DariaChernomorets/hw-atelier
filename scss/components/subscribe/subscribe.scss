@@ -1,0 +1,68 @@
+.subscribe{
+
+
+  &__wrapper{
+    border-bottom: 1px solid $border-color;
+    padding: 120px 0 60px;
+  }
+  &__text{
+    width: 60%;
+    margin: 0 auto;
+
+    h2{
+      font-size: $font-xl;
+      color: $accent-color;
+      line-height: $font-xxl;
+      margin-bottom: 15px;
+
+    }
+
+    p{
+      font-size: $font-md;
+      margin-bottom: 70px;
+    }
+
+  }
+
+  &__form{
+    width:40%;
+    margin: 0 auto;
+
+    label{
+      width: 100%;
+      .email{
+        width: 100%;
+        padding: 14px 25px;
+        background-color: $bg-color;
+        color: $accent-color;
+        font-size: $font-card;
+      }
+    }
+
+    p{
+      margin:32px 0 20px;
+      font-size: 14px;
+      span{
+        color: $accent-color;
+      }
+    }
+  }
+
+  &__social{
+    gap: 8px;
+
+    &-img{
+      width: 48px;
+      height: 48px;
+      border: 1px solid $border-color;
+
+
+        &:hover{
+          background-color: $accent-color;
+        }
+
+
+
+    }
+  }
+}

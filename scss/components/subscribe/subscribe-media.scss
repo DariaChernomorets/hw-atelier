@@ -1,0 +1,24 @@
+.subscribe{
+  @media (max-width: $br-point-netbook) {
+
+    &__form{
+      width: 100%;
+    }
+  }
+
+@media (max-width: $br-point-tab) {
+
+  $font-xl:48px;
+  $font-xxl:52px;
+  &__text{
+    width: 100%;
+
+    h2{
+      font-size: $font-xl;
+      line-height: $font-xxl;
+    }
+
+  }
+
+}
+  }

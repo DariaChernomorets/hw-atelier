@@ -1,0 +1,48 @@
+.services{
+  @media (max-width: $br-point-netbook){
+
+    .card-body{
+      padding: 50px;
+
+      p{
+        width: 100%;
+      }
+    }
+
+    &__list-item:last-child{
+      text-align: center;
+
+      img{
+        margin: 0 auto;
+      }
+
+    }
+  }
+  @media (max-width: $br-point-tab){
+
+
+    &__list-item{
+      text-align: center;
+
+      img{
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media (max-width: $br-point-mob-l){
+    &__text{
+      $font-xl:42px;
+      h2{
+        font-size: $font-xl;
+        margin-bottom: 40px;
+      }
+    }
+
+    &__list-item{
+      width: 95%;
+      margin: 0 auto;
+    }
+
+  }
+}

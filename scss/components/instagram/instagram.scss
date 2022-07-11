@@ -1,0 +1,36 @@
+.instagram{
+
+  &__wrapper{
+
+    border-bottom: 1px solid #4B4136;
+    padding-bottom: 10px;
+  }
+
+  &__pictures{
+   margin-top:-10px;
+    width: 100%;
+
+    &-item{
+      width: 18%;
+    }
+
+    &-follow{
+      width:28%;
+      margin: 40px 0;
+      background-image: url("../assets/insta-sign.svg");
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size:52%;
+
+
+
+      h2{
+        font-size: 40px;
+        color: $accent-color;
+        margin: 50px auto;
+        text-align: center;
+      }
+    }
+  }
+
+}

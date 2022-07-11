@@ -1,0 +1,56 @@
+.services{
+  &__wrapper{
+    padding: 120px 0;
+    border-bottom: 1px solid #4B4136;
+  }
+
+  &__text{
+    p{
+      font-size: $font-md;
+      text-transform: $uppercase;
+      letter-spacing:$letter-spacing;
+      margin-bottom: 10px;
+    }
+
+    h2{
+      font-size: $font-xl;
+      color: $accent-color;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__list{
+
+
+      .card{
+        background-color: $bg-color;
+
+        img{
+          width: 60px;
+          height:60px;
+          margin-bottom: 20px;
+        }
+
+        &-body{
+          padding: 61px 61px 80px 61px;
+
+          h3{
+            font-size: $font-card-img;
+            color: $accent-color;
+            margin-bottom: 10px;
+          }
+
+          h5{
+            font-size: 15px;
+            line-height: 26px;
+          }
+
+          p{
+            font-size: $font-sm;
+            line-height: 26px;
+            width: 80%;
+          }
+        }
+      }
+    }
+  }

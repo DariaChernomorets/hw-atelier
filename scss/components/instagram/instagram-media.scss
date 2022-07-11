@@ -1,0 +1,45 @@
+.instagram{
+  @media (max-width: $br-point-comp) {
+
+    &__pictures-follow {
+      margin: 25px 0;
+
+      h2 {
+        margin: 35px auto;
+
+      }
+    }
+  }
+
+  @media (max-width: $br-point-netbook) {
+
+    &__pictures-follow {
+      margin: 20px 0;
+      h2 {
+        font-size: 28px;
+        margin: 25px auto;
+
+      }
+    }
+  }
+
+  @media (max-width: $br-point-tab) {
+
+    &__pictures{
+        flex-wrap: wrap;
+    &-follow{
+      width: 100%;
+      margin: 38px 5px;
+      background-size: 28%;
+
+      h2{
+          font-size: 28px;
+          margin: 35px auto;
+      }
+    }
+    &-item {
+      width: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.header{
+  padding: 14px 0;
+  height: $header-height;
+  .navbar{
+      li{
+        text-transform: $uppercase;
+        &:not(:first-child){
+          padding-right: 40px;
+        }
+        &:first-child{
+          padding-right: 28px;
+        }
+
+        &:hover{
+          color: $accent-color;
+          transition: .3s;
+        }
+      }
+
+    &-brand{
+      padding-right: 40px
+    }
+
+    &-toggler{
+      svg{
+        fill:$main-color;
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+  &__template-btn{
+    text-transform: $uppercase;
+  }
+
+}

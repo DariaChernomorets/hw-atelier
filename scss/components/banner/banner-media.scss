@@ -1,0 +1,45 @@
+.banner{
+
+  @media (max-width:$br-point-netbook) {
+    $font-xxl:50px;
+
+    &__picture{
+      &-text{
+        top:15%;
+
+        h1{
+          font-size: $font-xxl;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+  @media (max-width:$br-point-mob-l) {
+    $font-xxl:38px;
+
+    &__picture{
+      &-text{
+
+        h1{
+          font-size: $font-xxl;
+          line-height: 46px;
+        }
+      }
+    }
+  }
+
+  @media (max-width:$br-point-mob) {
+    $font-xxl:34px;
+
+    &__picture{
+      &-text{
+
+        h1{
+          font-size: $font-xxl;
+          line-height: 44px;
+        }
+      }
+    }
+  }
+}
